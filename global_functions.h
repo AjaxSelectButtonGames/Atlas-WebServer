@@ -14,8 +14,8 @@ using json = nlohmann::json;
 namespace fs = std::filesystem;
 
 const std::string UPLOAD_DIR = "./uploads/";
-const std::string USERNAME = "admin";
-const std::string PASSWORD = "password";
+const std::string USERNAME = "admin"; // no longer being used but needed still
+const std::string PASSWORD = "password"; //no longer being used but needed still 
 
 struct User;
 

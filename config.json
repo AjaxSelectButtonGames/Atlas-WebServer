@@ -1,0 +1,14 @@
+{
+  "server": {
+    "host": "67.211.209.169",
+    "port": 443
+  },
+  "websites": [
+    {
+      "domain": "selectbuttongames.com",
+      "documentRoot": "./wwww/",
+      "sslCertificate": "certificate.pem",
+      "sslPrivateKey": "privatekey.pem"
+    }
+  ]
+}

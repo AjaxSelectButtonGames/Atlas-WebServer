@@ -22,7 +22,7 @@ std::string sha256(const std::string& str) {
 // Function to connect to MySQL database
 sql::Connection* connect_to_database() {
     sql::mysql::MySQL_Driver* driver = sql::mysql::get_mysql_driver_instance();
-    sql::Connection* conn = driver->connect("tcp://127.0.0.1:3307", "root", "12yPussy2019@"); // Replace with your credentials
+    sql::Connection* conn = driver->connect("tcp://LOCALHOST", "USERNAME", "TESTPASSWORD"); // Replace with your credentials and IP etc
     conn->setSchema("api_auth");
     return conn;
 }

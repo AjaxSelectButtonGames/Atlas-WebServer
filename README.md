@@ -1,6 +1,6 @@
 # Atlas-WebServer
 
-Atlas-WebServer is a C++ based web server implementation designed for handling file uploads with integrated virus scanning functionality.
+Atlas-WebServer is a C++ based web server implementation designed for handling file uploads with integrated virus scanning functionality. It also serves as a micro web server for a small website it can handle HTML, CSS, IMAGES, LUA, and a few other things a website will need. 
 
 ## Features
 - **File Upload Handling**: Supports handling multiple file uploads.
